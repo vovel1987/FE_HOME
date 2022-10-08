@@ -39,3 +39,23 @@ if (sumPurchases > restMoneyNuts) {
 } else {
   console.log("Больше потратили на орехи");
 }
+
+
+let num1 = +prompt("Vvedite chislo");
+let num2 = +prompt("Vvedite 2 chislo");
+alert(" ${num1+num2},${num1-num2}");
+
+let numA = 5;
+let numB = 5;
+
+if (numB / 2 == 0) {
+  console.log("Chetnoe chislo");
+} else {
+  console.log("nechetnoe chislo");
+}
+
+if (numA/2==0) {
+  console.log(numA);
+} else {
+  console.log(numA + 1);
+}
