@@ -30,18 +30,40 @@ console.log(newValueMassiv1(array1));
 console.log(newValueMassiv1(array2));
 console.log(newValueMassiv1(array3));
 
-let massiv = ["hello", "is", 1, 2, 3];
-let nemMasiv = (array) => {
-  let newAr = [];
-  let newSt = [];
-  for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-    if (typeof array[i] === "string") {
-      newSt = array[i] + array[i];
-      console.log(newSt);
-      
+
+// Не все условия получаються
+
+
+let arrayOne = ["привет", true, 65];
+let arrayTwo = [3, [], false];
+let arrayThree = ["js", "java", "script", "redButton"];
+
+let arrayWithThreeElements = function (arrayOne, arrayTwo, arrayThree) {
+  let arrayConcatElements = arrayOne.concat(arrayTwo, arrayThree);
+  let arrayString = [];
+  let arrayNumber = [];
+  let arrayBoolean = [];
+  let arrayAnother = [];
+  let newarray = [];
+
+  for (let i = 0; i < arrayConcatElements.length; i++) {
+    if (typeof arrayConcatElements[i] === "string") {
+      arrayString.push(arrayConcatElements[i]);
     }
-    return (newAr = newAr.concat(newSt));
+    if (typeof arrayConcatElements[i] === "number") {
+      arrayNumber.push(arrayConcatElements[i]);
+    }
+    if (typeof arrayConcatElements[i] === "boolean") {
+      arrayBoolean.push(arrayConcatElements[i]);
+    }
+    if (typeof arrayConcatElements[i] === []) {
+      arrayAnother.push(arrayConcatElements);
+    }
   }
+  return (newArray = arrayString.concat(
+    arrayNumber,
+    arrayBoolean,
+    arrayAnother
+  ));
 };
-console.log(nemMasiv(massiv));
+console.log(arrayWithThreeElements(arrayOne, arrayTwo, arrayThree));
