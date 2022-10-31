@@ -7,4 +7,5 @@
 -[HW13.10](https://vovel1987.github.io/FE_HOME/HW13.10/)
 
 -[HW18.10](https://vovel1987.github.io/FE_HOME/HW18.10/)
-
+-[HW23.10](https://vovel1987.github.io/FE_HOME/HW23.10/)
+-[HW30.10](https://vovel1987.github.io/FE_HOME/HW30.10/)
