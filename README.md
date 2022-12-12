@@ -12,6 +12,8 @@
 
 -[HW30.10](https://vovel1987.github.io/FE_HOME/HW30.10/)
 
+-[HW28.11](https://vovel1987.github.io/FE_HOME/HW28.11/)
+
 -[HW05.12](https://vovel1987.github.io/FE_HOME/HW05.12/)
 
 
