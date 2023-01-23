@@ -18,5 +18,5 @@
 
 -[HW20.12](https://vovel1987.github.io/FE_HOME/HW20.12/)
 
--[HW15.01](https://vovel1987.github.io/FE_HOME/HW15.01C/)
+-[HW15.01](https://vovel1987.github.io/FE_HOME/HW15.01/)
 
